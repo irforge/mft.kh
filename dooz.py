@@ -68,7 +68,7 @@ lines = (board[0:3], board[3:6], board[6:9], board[0::3], board[1::3],
 
 
 if "X" * 3 in lines:
-    print("Player X wins!")
+    print("player X win")
     exit()
 
 move = input("player O, choose (1-9): ")
@@ -83,7 +83,7 @@ print()
 lines = (board[0:3], board[3:6], board[6:9], board[0::3], board[1::3],
          board[2::3], board[0::4], board[2:7:2])
 if "O" * 3 in lines:
-    print("Player O wins!")
+    print("player O win")
     exit()
 
 
@@ -99,7 +99,7 @@ print()
 lines = (board[0:3], board[3:6], board[6:9], board[0::3], board[1::3],
          board[2::3], board[0::4], board[2:7:2])
 if "X" * 3 in lines:
-    print("Player X wins!")
+    print("player X win")
     exit()
 
 move = input("player O, choose (1-9): ")
@@ -114,7 +114,7 @@ print()
 lines = (board[0:3], board[3:6], board[6:9], board[0::3], board[1::3],
          board[2::3], board[0::4], board[2:7:2])
 if "O" * 3 in lines:
-    print("Player O wins!")
+    print("player O win")
     exit()
 
 move = input("player X, choose (1-9): ")
@@ -129,7 +129,7 @@ print()
 lines = (board[0:3], board[3:6], board[6:9], board[0::3], board[1::3],
          board[2::3], board[0::4], board[2:7:2])
 if "X" * 3 in lines:
-    print("Player X wins!")
+    print("player X wins!")
     exit()
 
-print("It's a draw!")
+print("its draw")
