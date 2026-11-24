@@ -129,7 +129,7 @@ print()
 lines = (board[0:3], board[3:6], board[6:9], board[0::3], board[1::3],
          board[2::3], board[0::4], board[2:7:2])
 if "X" * 3 in lines:
-    print("player X wins!")
+    print("player X win")
     exit()
 
 print("its draw")
